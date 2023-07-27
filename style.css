@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+body {
+    background-color: var(--claro);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --claro: #BEBDBF;
+    --escuro: #050B0D;
+    --cinza-claro: #7B878C;
+    --cinza-medio: #475759;
+    --cinza-escuro: #152326;
+}
+
+
+/*Header*/
+
+header {
+    background-color: var(--escuro);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 70px;
+}
+
+.logo {
+    color: var(--claro);
+    margin: 0px 10px;
+}
+
+.logo h1 {
+
+}
+
+.head-nav {
+    display: flex;
+    align-items: center;
+    margin: 0px 80px;
+}
+
+.head-nav-item {
+    color: var(--claro);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0px 10px;
+    transition: 200ms;
+}
+
+.head-nav-item:hover {
+    background-color: var(--cinza-escuro);
+    border-radius: 5px;
+}
+
+
+
+
+/*Main*/
+
+main {
+    background-color: var(--cinza-claro);
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.200);
+}
+
+section {
+    margin: 20px 0px;
+}
+
+.introdução {
+    display: flex;
+    flex-direction: column;
+}
+
+.capitulo {
+    padding: 20px;
+    font-size: 1.8em;
+    align-self: center;
+    width: 100%;
+    background-color: var(--cinza-medio);
+    color: var(--claro);
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.200);
+}
+
+.topico {
+    background-image: linear-gradient(to right, var(--cinza-medio), transparent);
+    padding: 2px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p a {
+    text-decoration: none;
+    color: black;
+    background-color: var(--cinza-medio);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+p a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+p {
+    text-indent: 20px;
+    margin: 5px 0px;
+}
+
+.extras {
+    background-color: rgba(136, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.titulo-extra {
+    background-color: rgb(48, 0, 0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+}
+
+
+
+/*Footer*/
+
+footer {
+    background-color: var(--escuro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: var(--claro);
+}
+
+footer > p > a {
+    color: var(--cinza-medio);
+    text-decoration: none;
+    background: none;
+}
+
+footer > p > a:hover {
+    color: white;
+    text-decoration: underline;
+} 
