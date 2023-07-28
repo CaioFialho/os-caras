@@ -28,6 +28,7 @@ body {
 
 .page {
     display: flex;
+    width: 100%;
 }
 
 
@@ -55,7 +56,7 @@ header {
 .head-nav {
     display: flex;
     align-items: center;
-    margin: 0px 80px;
+    margin: 0px 80px 0px 0px;
 }
 
 .head-nav-item {
@@ -85,6 +86,7 @@ header {
 .container{
     background-color: var(--claro);
     max-width: 1000px;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -105,6 +107,7 @@ section {
     font-size: 1.8em;
     width: 980px;
     margin-top: 30px;
+    margin-left: -10px;
     background-color: var(--cinza-medio02);
     color: var(--claro);
 }
