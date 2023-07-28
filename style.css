@@ -25,6 +25,10 @@ body {
     --cinza-escuro: #152326;
 }
 
+.page {
+    display: flex;
+}
+
 
 /*Header*/
 
@@ -68,11 +72,16 @@ header {
 }
 
 
+/*Nav Menu Bar*/
+
+.menu-bar {
+    
+}
 
 
 /*Main*/
 
-main {
+.container{
     background-color: var(--cinza-claro);
     max-width: 1000px;
     margin: auto;
