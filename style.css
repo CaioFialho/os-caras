@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'charlie';
+    src: url(Charlie-dont-surf.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
 body {
     background-color: var(--claro);
     font-family: Arial, Helvetica, sans-serif;
@@ -34,6 +41,10 @@ header {
 .logo {
     color: var(--claro);
     margin: 0px 10px;
+}
+
+.logo h1 {
+    font-family: 'charlie', Arial, Helvetica, sans-serif;
 }
 
 .head-nav {
