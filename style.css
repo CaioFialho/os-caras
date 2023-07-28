@@ -75,7 +75,7 @@ header {
 /*Nav Menu Bar*/
 
 .menu-bar {
-    
+    display: none;
 }
 
 
@@ -152,7 +152,6 @@ p {
 
 .text-foto-div {
     display: flex;
-    
 }
 
 .criadores-img {
