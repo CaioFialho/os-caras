@@ -156,8 +156,8 @@ p {
 }
 
 .criadores-img {
-    width: 200px;
-    height: 200px;
+   max-width: 400px;
+    max-height: 400px;
     margin: 20px;
 }
 
