@@ -43,7 +43,7 @@ header {
 }
 
 .logo {
-    color: var(--claro);
+    color: white;
     margin: 0px 10px;
 }
 
@@ -58,7 +58,7 @@ header {
 }
 
 .head-nav-item {
-    color: var(--claro);
+    color: white;
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
