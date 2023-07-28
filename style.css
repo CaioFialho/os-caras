@@ -150,7 +150,16 @@ p {
     margin: -10px -10px 0px -10px;
 }
 
+.text-foto-div {
+    display: flex;
+    
+}
 
+.criadores-img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
 
 /*Footer*/
 
