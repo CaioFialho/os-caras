@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: var(--claro);
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -18,11 +18,12 @@ body {
 }
 
 :root {
-    --claro: #BEBDBF;
-    --escuro: #050B0D;
-    --cinza-claro: #7B878C;
-    --cinza-medio: #475759;
-    --cinza-escuro: #152326;
+    --claro: #BFBFBF;
+    --escuro: #050505;
+    --cinza-claro: #8C8C8C;
+    --cinza-medio01: #737373;
+    --cinza-medio02: #595959;
+    --cinza-escuro: #404040;
 }
 
 .page {
@@ -82,7 +83,7 @@ header {
 /*Main*/
 
 .container{
-    background-color: var(--cinza-claro);
+    background-color: var(--claro);
     max-width: 1000px;
     margin: auto;
     display: flex;
@@ -105,13 +106,13 @@ section {
     font-size: 1.8em;
     align-self: center;
     width: 100%;
-    background-color: var(--cinza-medio);
+    background-color: var(--cinza-medio02);
     color: var(--claro);
     box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.200);
 }
 
 .topico {
-    background-image: linear-gradient(to right, var(--cinza-medio), transparent);
+    background-image: linear-gradient(to right, var(--cinza-medio01), transparent);
     padding: 2px;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -120,7 +121,7 @@ section {
 p a {
     text-decoration: none;
     color: black;
-    background-color: var(--cinza-medio);
+    background-color: var(--cinza-claro);
     padding: 2px;
     border-radius: 5px;
 }
@@ -174,7 +175,7 @@ footer p {
 }
 
 footer > p > a {
-    color: var(--cinza-medio);
+    color: var(--cinza-medio01);
     text-decoration: none;
     background: none;
 }
