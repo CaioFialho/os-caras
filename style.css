@@ -4,7 +4,7 @@
     font-family: 'charlie';
     src: url(Charlie-dont-surf.ttf) format('truetype');
     font-style: normal;
-    font-weight: normal;
+    font-weight: no;
 }
 
 body {
@@ -86,12 +86,12 @@ section {
     margin: 20px 0px;
 }
 
-.introdução {
+.capitulo {
     display: flex;
     flex-direction: column;
 }
 
-.capitulo {
+.capitulo-h1 {
     padding: 20px;
     font-size: 1.8em;
     align-self: center;
