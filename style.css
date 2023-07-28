@@ -153,10 +153,15 @@ p {
     display: flex;
 }
 
-.criadores-img {
-   max-width: 200px;
+.criadores-div-img {
+    max-width: 200px;
     max-height: 200px;
     margin: 20px;
+}
+
+.criadores-img {
+    width: 100%;
+    height: 100%;
 }
 
 /*Footer*/
