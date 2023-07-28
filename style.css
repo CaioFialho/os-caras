@@ -31,6 +31,11 @@ body {
     width: 100%;
 }
 
+@media (max-width: 680px) {
+    .head-nav, .head-nav-item {
+        display: none;
+    }
+}
 
 /*Header*/
 
@@ -74,11 +79,7 @@ header {
     border-radius: 5px;
 }
 
-@media (max-width: 660px) {
-    .head-nav {
-        display: none;
-    }
-}
+
 
 /*Nav Menu Bar*/
 
@@ -112,7 +113,7 @@ section {
     padding: 20px 0px 20px 20px;
     font-size: 1.8em;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: -10px;
     background-color: var(--cinza-medio02);
     color: var(--claro);
@@ -163,8 +164,7 @@ p {
 }
 
 .criadores-div-img {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 25%;
     margin: 20px;
 }
 
