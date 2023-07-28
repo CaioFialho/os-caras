@@ -73,6 +73,11 @@ header {
     border-radius: 5px;
 }
 
+@media (max-width=660px) {
+    .head-nav {
+        display: none;
+    }
+}
 
 /*Nav Menu Bar*/
 
