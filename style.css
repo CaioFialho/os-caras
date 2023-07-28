@@ -4,7 +4,7 @@
     font-family: 'charlie';
     src: url(Charlie-dont-surf.ttf) format('truetype');
     font-style: normal;
-    font-weight: no;
+    font-weight: normal;
 }
 
 body {
@@ -49,7 +49,7 @@ header {
     margin: 0px 10px;
 }
 
-.logo h1 {
+.logo-h1 {
     font-family: 'charlie', Arial, Helvetica, sans-serif;
 }
 
