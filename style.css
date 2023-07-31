@@ -106,7 +106,7 @@ header {
 #itens {
     display: none;
     flex-direction: column;
-    background-color: var(--cinza-escuro);
+    background-color: var(--escuro);
     padding: 30px;
     position: absolute;
     right: 0rem;
