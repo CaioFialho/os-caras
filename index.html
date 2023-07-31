@@ -17,11 +17,21 @@
             <a href="######" class="head-nav-item">N sei</a>
             <a href="######" class="head-nav-item">N sei</a>
         </nav>
+        <div id="burguer" class="hamburguer" onclick="clickMenu()">
+            <div class="line01"></div>
+            <div class="line02"></div>
+            <div class="line03"></div>
+        </div>
+        <menu id="itens">
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+        </menu>
     </header>
     <main class="page">
-        <nav class="menu-bar">
-
-        </nav>
         <main class="container">
             <section class="capitulo">
                 <h1 class="capitulo-h1">INTRODUÇÃO</h1>
@@ -74,5 +84,15 @@
     <footer>
         <p>Site Criado por <a href="https://github.com/CaioFialho" target="_blank">Caio Fialho</a> para fins de diversão e estudo</p>
     </footer>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'flex') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'flex'
+            }
+        }
+
+    </script>
 </body>
 </html>
