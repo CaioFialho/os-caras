@@ -57,8 +57,13 @@ header {
     margin-left: 30px;
 }
 
-.logo-h1 {
-    font-family: 'charlie', Arial, Helvetica, sans-serif;
+.logo-img {
+    height: 40px;
+    transition: 50ms;
+}
+
+.logo-img:hover {
+    transform: scale(1.05);
 }
 
 .head-nav {
