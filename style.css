@@ -206,7 +206,8 @@ p {
 }
 
 .criadores-div-img {
-    max-width:220px;
+    max-width: 220px;
+    min-width: 220px;
     margin: 20px;
 }
 
@@ -222,6 +223,11 @@ p {
 
     .criadores-div-img {
         max-width: 400px;
+        order: 1;
+    }
+
+    .text-foto-list {
+        order: 2;
     }
 }
 
