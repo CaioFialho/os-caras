@@ -113,12 +113,16 @@ header {
     display: none;
     flex-direction: column;
     background-color: var(--escuro);
-    padding: 30px;
+    padding: 10px 30px;
     position: absolute;
     right: 0rem;
-    top: 4rem;
+    top: 4.4rem;
     transition: 400ms;
     width: 130px;
+    border: 2px solid #454545;
+    border-top: none;
+    border-right: none;
+    box-shadow: -1px 1px 5px 0px #00000057;
 }
 
 #itens > a {
