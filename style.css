@@ -59,11 +59,11 @@ header {
 
 .logo-img {
     height: 40px;
-    transition: 50ms;
+    transition: 300ms;
 }
 
 .logo-img:hover {
-    transform: scale(1.05);
+    transform: scale(1.05) rotate(2deg);
 }
 
 .head-nav {
