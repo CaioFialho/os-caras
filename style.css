@@ -1,15 +1,17 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'charlie';
-    src: url(Charlie-dont-surf.ttf) format('truetype');
+    font-family: charlie;
+    src: url(Fontes/charlie.ttf) format(truetype);
     font-style: normal;
     font-weight: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -75,7 +77,8 @@ header {
 .head-nav-item {
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 300;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
     padding: 10px;
     margin: 0px 10px;
     transition: 200ms;
@@ -160,17 +163,21 @@ section {
 
 .capitulo-h1 {
     padding: 20px 0px 20px 20px;
+    font-family: 'Rowdies', Arial, Helvetica, sans-serif;
+    font-weight: 400;
     font-size: 1.8em;
     width: 100%;
     margin-top: 10px;
     margin-left: -10px;
-    background-color: var(--cinza-claro);
-    color: var(--escuro);
+    background-color: var(--cinza-escuro);
+    color: var(--claro);
 }
 
 .topico {
     background-image: linear-gradient(to right, var(--cinza-claro), transparent);
     color: var(--cinza-mais-escuro);
+    font-family: 'Rowdies', Arial, Helvetica, sans-serif;
+    font-weight: 300;
     padding: 2px;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -190,6 +197,7 @@ p a:hover {
 }
 
 p {
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
     text-indent: 20px;
     margin: 5px 0px;
 }
