@@ -142,15 +142,15 @@ header {
 
 /*Main*/
 
-@media (min-width: 1366px) {
+@media (max-width: 1366px) {
     .container {
-        max-width: 72.5vw;
+        max-width: 1000px;
     }
 }
 
 .container{
     background-color: var(--claro);
-    max-width: 1000px;
+    max-width: 73.2vw;
     width: 100%;
     margin: auto;
     display: flex;
