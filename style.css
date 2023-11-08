@@ -170,16 +170,70 @@ main.page {
     font-size: 1.4em;
 }
 
-.sobre {
+.sobre_oscaras {
     display: flex;
-    flex-direction: column;
-    background-color: #595959;
-    color: white;
-    padding: 50px 80px;
+    padding: 40px 60px;
+    justify-content: space-between;
 }
 
-.sobre_cont {
+.text_oscaras{ 
     display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+}
+
+.text_oscaras h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.text_oscaras h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+}
+
+.text_oscaras p > a {
+    color: crimson;
+    text-decoration: none;
+}
+
+.text_oscaras p > a:hover{
+    color: rgb(121, 6, 252);
+    text-decoration: underline;
+}
+
+.sobre_foto_grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre_foto_grid_ch {
+    display: flex;
+}
+
+.sobre_foto_grid_item01 {
+    background: #737373 url("Images/Fotos/Os_Caras/sobre_01.jpg") center center no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 420px;
+    margin: 5px 10px;
+}
+
+.sobre_foto_grid_item02 {
+    background: #737373 url("Images/Fotos/Os_Caras/sobre_02.jpg") center center no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 5px 10px;
+}
+
+.sobre_foto_grid_item03 {
+    background: #737373 url("Images/Fotos/Os_Caras/sobre_03.jpg") center center no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 5px 10px;
 }
 
 /*Footer*/
