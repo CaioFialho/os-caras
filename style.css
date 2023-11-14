@@ -272,6 +272,10 @@ main.page {
         padding: 0;
     }
 
+    .container_sobre {
+        padding: 0;
+    }
+
     .integrante_foto_div {
         display: flex;
         height: 30vh;
