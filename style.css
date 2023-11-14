@@ -24,6 +24,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    text-align: justify;
+}
+
 :root {
     --claro: #e5e5e5;
     --escuro: #050505;
@@ -260,6 +264,7 @@ main.page {
 
     .sobre_foto_grid {
         margin-top: 50px;
+        max-width: 400px;
     }
 
     .integrante_cont01 {
@@ -272,9 +277,7 @@ main.page {
 
     .integrante_foto_div {
         display: flex;
-        height: 30vh;
-        width: 100%;
-        margin: 20px 50px;
+        margin: 0;
         justify-content: space-between;
         align-items: end;
         padding: 10px;
@@ -282,19 +285,11 @@ main.page {
         font-size: 1.4em;
     }
 
-    #Caio {
-        background: #737373 url("Images/Fotos/Caio/caio-foto-wide.JPG") center center no-repeat;
-        background-size: cover;
-    }
-    
-    #Murilo {
-        background: #737373 url("Images/Fotos/Murilo/murilo-foto-wide.JPG") center center no-repeat;
-        background-size: cover;
-    }
-    
-    #Rhian {
-        background: #737373 url("Images/Fotos/Rhian/rhian-foto-wide.JPG") center center no-repeat;
-        background-size: cover;
+    #Caio, #Murilo, #Rhian {
+        width: 85vw;
+        height: 40vh;
+        background-position: top;
+        margin: 0;
     }
     
     .integrantes_text_div {
@@ -340,12 +335,12 @@ main.page {
 }
 
 #Caio {
-    background: #737373 url("Images/Fotos/Caio/caio-foto.JPG") center center no-repeat;
+    background: #737373 url("Images/Fotos/Caio/caio-foto.JPG") top no-repeat;
     background-size: cover;
 }
 
 #Murilo {
-    background: #737373 url("Images/Fotos/Murilo/murilo-foto.JPG") center center no-repeat;
+    background: #737373 url("Images/Fotos/Murilo/murilo-foto.JPG") top no-repeat;
     background-size: cover;
 }
 
@@ -397,6 +392,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 5px;
 }
 
 footer p {
