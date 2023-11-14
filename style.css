@@ -251,6 +251,11 @@ main.page {
 @media (max-width: 850px) {
     .sobre_oscaras  {
         flex-direction: column;
+        padding: 40px 0;
+    }
+
+    .text_oscaras {
+        max-width: 80vw;
     }
 
     .sobre_foto_grid {
