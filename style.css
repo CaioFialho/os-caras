@@ -264,16 +264,10 @@ main.page {
 
     .integrante_cont01 {
         flex-direction: column;
-        padding: 0;
     }
 
     .integrante_cont02 {
         flex-direction: column-reverse;
-        padding: 0;
-    }
-
-    .container_sobre {
-        padding: 0;
     }
 
     .integrante_foto_div {
@@ -320,7 +314,7 @@ main.page {
 
 .container_sobre {
     max-width: 1400px;
-    padding: 40px 60px;
+    padding: 40px 0;
     margin: auto;
 }
 
@@ -329,7 +323,7 @@ main.page {
     align-items: center;
     justify-content: space-between;
     max-width: 1400px;
-    padding: 40px 60px;
+    padding: 40px 0;
     margin: auto;
 }
 
