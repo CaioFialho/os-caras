@@ -259,10 +259,12 @@ main.page {
 
     .integrante_cont01 {
         flex-direction: column;
+        padding: 0;
     }
 
     .integrante_cont02 {
         flex-direction: column-reverse;
+        padding: 0;
     }
 
     .integrante_foto_div {
