@@ -257,13 +257,24 @@ main.page {
         margin-top: 50px;
     }
 
-    .integrante_cont01, .integrante_cont02 {
+    .integrante_cont01 {
         flex-direction: column;
     }
 
+    .integrante_cont02 {
+        flex-direction: column-reverse;
+    }
+
     .integrante_foto_div {
-        height: 200px;
-        width: 300px;
+        display: flex;
+        height: 30vh;
+        width: 100%;
+        margin: 20px 50px;
+        justify-content: space-between;
+        align-items: end;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.4em;
     }
 
     #Caio {
@@ -281,6 +292,9 @@ main.page {
         background-size: cover;
     }
     
+    .integrantes_text_div {
+        margin: 20px 50px;
+    }
 }
 
 
@@ -347,8 +361,9 @@ main.page {
     display: flex;
     flex-direction: column;
     max-width: 600px;
-    height: 400px;
+    min-height: 400px;
     justify-content: space-between;
+    margin: 50px;
 }
 
 .integrantes_text_div > h2 {
