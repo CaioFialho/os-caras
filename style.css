@@ -19,6 +19,11 @@ body {
     padding: 0px;
 }
 
+a {
+    color: crimson;
+    text-decoration: none;
+}
+
 :root {
     --claro: #e5e5e5;
     --escuro: #050505;
@@ -170,16 +175,22 @@ main.page {
     font-size: 1.4em;
 }
 
+
+
+
 .sobre_oscaras {
     display: flex;
     padding: 40px 60px;
+    margin: auto;
+    max-width: 1400px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .text_oscaras{ 
     display: flex;
     flex-direction: column;
-    max-width: 50vw;
+    max-width: 40vw;
 }
 
 .text_oscaras h1 {
@@ -206,6 +217,7 @@ main.page {
 .sobre_foto_grid {
     display: flex;
     flex-direction: column;
+    max-width: 440px;
 }
 
 .sobre_foto_grid_ch {
@@ -216,7 +228,7 @@ main.page {
     background: #737373 url("Images/Fotos/Os_Caras/sobre_01.jpg") center center no-repeat;
     background-size: cover;
     height: 200px;
-    width: 420px;
+    max-width: 420px;
     margin: 5px 10px;
 }
 
@@ -235,6 +247,128 @@ main.page {
     width: 200px;
     margin: 5px 10px;
 }
+
+@media (max-width: 850px) {
+    .sobre_oscaras  {
+        flex-direction: column;
+    }
+
+    .sobre_foto_grid {
+        margin-top: 50px;
+    }
+
+    .integrante_cont01, .integrante_cont02 {
+        flex-direction: column;
+    }
+
+    .integrante_foto_div {
+        height: 200px;
+        width: 300px;
+    }
+
+    #Caio {
+        background: #737373 url("Images/Fotos/Caio/caio-foto-wide.JPG") center center no-repeat;
+        background-size: cover;
+    }
+    
+    #Murilo {
+        background: #737373 url("Images/Fotos/Murilo/murilo-foto-wide.JPG") center center no-repeat;
+        background-size: cover;
+    }
+    
+    #Rhian {
+        background: #737373 url("Images/Fotos/Rhian/rhian-foto-wide.JPG") center center no-repeat;
+        background-size: cover;
+    }
+    
+}
+
+
+
+
+.sobre_integrantes {
+    display: flex;
+    background-color: #252525;
+    color: white;
+    flex-direction: column;
+}
+
+.container_sobre {
+    max-width: 1400px;
+    padding: 40px 60px;
+    margin: auto;
+}
+
+.integrante_cont01, .integrante_cont02 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    padding: 40px 60px;
+    margin: auto;
+}
+
+.integrante_foto_div {
+    display: flex;
+    height: 400px;
+    width: 300px;
+    margin: 50px;
+    justify-content: space-between;
+    align-items: end;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+
+#Caio {
+    background: #737373 url("Images/Fotos/Caio/caio-foto.JPG") center center no-repeat;
+    background-size: cover;
+}
+
+#Murilo {
+    background: #737373 url("Images/Fotos/Murilo/murilo-foto.JPG") center center no-repeat;
+    background-size: cover;
+}
+
+#Rhian {
+    background: #737373 url("Images/Fotos/Rhian/rhian-foto.JPG") center center no-repeat;
+    background-size: cover;
+}
+
+.integrante_foto_div > a > img {
+    height: 40px;
+}
+
+.integrante_foto_div > a:hover {
+    transform: scale(1.1);
+}
+
+.integrantes_text_div {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.integrantes_text_div > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+.integrantes_text_div > ul {
+    list-style: disc;
+}
+
+.integrantes_text_div > ul > li {
+    margin: 5px 30px;
+}
+
+.integrantes_text_div > h3 {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 /*Footer*/
 
